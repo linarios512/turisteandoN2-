@@ -6,4 +6,64 @@
     android:layout_height="match_parent"
     tools:context=".RestaurantesHome">
 
+    <TextView
+        android:id="@+id/tituloRestaurantes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RESTAURANTES"
+        android:textColor="@color/darkred"
+        android:textSize="50dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.1" />
+
+    <TextView
+        android:id="@+id/textorestaurantes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:text="Casi todo el mundo puede reservar un viaje,
+         pero no todo el mundo puede planear una aventura única que
+         sea accesible, placentera y divertida para todos
+         los miembros de su grupo. Nuestro objetivo es
+         brindarte una amplia oferta en Hoteles y una herramienta de
+         comparación de viajes de última generación para que la
+         planificación sea más fácil que nunca."
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="17dp"
+        app:layout_constraintTop_toBottomOf="@+id/tituloRestaurantes"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.12"
+        app:flow_firstHorizontalBias="0.2"/>
+
+    <ImageView
+        android:id="@+id/logorestaurantes"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/logorestauranteapp"
+        app:layout_constraintTop_toBottomOf="@+id/textorestaurantes"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="VER MAS "
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/logorestaurantes"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
