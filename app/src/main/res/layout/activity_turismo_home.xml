@@ -24,13 +24,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="5dp"
-        android:text="Casi todo el mundo puede reservar un viaje,
-         pero no todo el mundo puede planear una aventura única que
-         sea accesible, placentera y divertida para todos
-         los miembros de su grupo. Nuestro objetivo es
-         brindarte una amplia oferta en Hoteles y una herramienta de
-         comparación de viajes de última generación para que la
-         planificación sea más fácil que nunca."
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="17dp"

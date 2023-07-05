@@ -6,9 +6,7 @@
     nuestro objetivo es brindarte una amplia oferta en Hoteles y una herramienta de comparación de viajes
     de última generación para que la planificación sea más fácil que nunca.
 </string>
-
     <string name="resenarestaurantes">
-
 
 
     </string>
@@ -18,10 +16,11 @@
 
     </string>
 
-        <string name="opcion1"> Inglese </string>
-        <string name="opcion2"> Spagnolo </string>
-        <string name="opcion3"> Italiano </string>
-        <string name="opcion4"> Su di noi</string>
+    <string name="opcion1"> Ingles </string>
+    <string name="opcion2"> Español </string>
+    <string name="opcion3"> Italiano </string>
+    <string name="opcion4"> Acerca de </string>
+
 
 
 </resources>
