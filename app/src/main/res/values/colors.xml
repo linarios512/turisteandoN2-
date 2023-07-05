@@ -147,6 +147,13 @@
     <item name="lightyellow" type="color">#ffffe0</item>
     <item name="snow" type="color">#fffafa</item>
     <item name="ivory" type="color">#fffff0</item>
+    <item name="color1" type="color">#b9dae1</item>
+    <item name="color2" type="color">#f39313</item>
+    <item name="color3" type="color">#8a8b21</item>
+    <item name="color4" type="color">#8b102b</item>
+    <item name="color5" type="color">#c74d1e</item>
+    <item name="color6" type="color">#0f1447</item>
+
 
 
 
