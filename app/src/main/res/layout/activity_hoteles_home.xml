@@ -4,66 +4,46 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/beige"
     tools:context=".HotelesHome">
+
+    <ImageView
+        android:id="@+id/logoTurismo"
+        android:src="@drawable/imagentitulohoteles"
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/tituloHoteles"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="HOTELES"
-        android:textColor="@color/darkred"
-        android:textSize="50dp"
+        android:textColor="@color/color6"
+        android:textSize="40dp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintVertical_bias="0.1" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/opcion1"
-
-    </TextView>
-
-    <TextView
-        android:id="@+id/textohoteles"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="5dp"
+    <Button
+        android:id="@+id/botonVERMASHOTELES"
+        android:text="VER MAS"
+        android:textSize="30dp"
         android:textAlignment="center"
-        android:textColor="@color/white"
-        android:textSize="17dp"
-        app:layout_constraintTop_toBottomOf="@+id/tituloHoteles"
+        android:background="@color/color6"
+        android:textColor="@color/color1"
+        android:layout_marginHorizontal="40dp"
+         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintVertical_bias="0.12"
-        app:flow_firstHorizontalBias="0.2"/>
-
-    <ImageView
-        android:id="@+id/logohotel"
+        app:layout_constraintVertical_bias="0.1"
         android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:src="@drawable/logohoteles"
-        app:layout_constraintTop_toBottomOf="@+id/textohoteles"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"/>
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="200dp"
-        android:layout_height="60dp"
-        android:text="VER MAS "
-        android:textSize="25dp"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        app:layout_constraintTop_toBottomOf="@+id/logohotel"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent" />
-
-
+        android:layout_height="25dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
