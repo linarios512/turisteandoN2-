@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/lemonchiffon"
+    android:background="@color/color1"
     tools:context=".HotelesHome">
 
 
@@ -86,19 +86,22 @@
         android:layout_height="20dp"
         android:src="@drawable/boton"
         tools:layout_editor_absoluteX="60dp"
-        tools:layout_editor_absoluteY="375dp" />
+        tools:layout_editor_absoluteY="375dp"
+        tools:ignore="MissingConstraints" />
     <ImageButton
         android:layout_width="20dp"
         android:layout_height="20dp"
         android:src="@drawable/boton"
         tools:layout_editor_absoluteX="65dp"
-        tools:layout_editor_absoluteY="475dp" />
+        tools:layout_editor_absoluteY="475dp"
+        tools:ignore="MissingConstraints" />
     <ImageButton
         android:layout_width="20dp"
         android:layout_height="20dp"
         android:src="@drawable/boton"
         tools:layout_editor_absoluteX="65dp"
-        tools:layout_editor_absoluteY="575dp" />
+        tools:layout_editor_absoluteY="575dp"
+        tools:ignore="MissingConstraints" />
 
 
     <Button

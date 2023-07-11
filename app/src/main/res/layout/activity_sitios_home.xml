@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/lemonchiffon"
+    android:background="@color/color1"
     tools:context=".sitiosHome">
 
 
@@ -46,9 +46,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:src="@drawable/hotelluxeok"
+        android:src="@drawable/tourpiedraok"
         app:layout_constraintVertical_bias="0.1"
-        app:layout_constraintWidth="570dp"
+        app:layout_constraintWidth="600dp"
         app:layout_constraintHeight="90dp"
         />
 
@@ -60,7 +60,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:src="@drawable/hotelglampingok"
+        android:src="@drawable/tourmonjesok"
         app:layout_constraintVertical_bias="0.05"
         app:layout_constraintWidth="570dp"
         app:layout_constraintHeight="90dp"
@@ -74,7 +74,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:src="@drawable/hotelmansionok"
+        android:src="@drawable/tourpueblook"
         app:layout_constraintVertical_bias="0.06"
         app:layout_constraintWidth="570dp"
         app:layout_constraintHeight="90dp"
@@ -84,20 +84,23 @@
         android:layout_width="20dp"
         android:layout_height="20dp"
         android:src="@drawable/boton"
-        tools:layout_editor_absoluteX="60dp"
-        tools:layout_editor_absoluteY="375dp" />
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="385dp"
+        tools:ignore="MissingConstraints" />
     <ImageButton
         android:layout_width="20dp"
         android:layout_height="20dp"
         android:src="@drawable/boton"
-        tools:layout_editor_absoluteX="65dp"
-        tools:layout_editor_absoluteY="475dp" />
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="490dp"
+        tools:ignore="MissingConstraints" />
     <ImageButton
         android:layout_width="20dp"
         android:layout_height="20dp"
         android:src="@drawable/boton"
-        tools:layout_editor_absoluteX="65dp"
-        tools:layout_editor_absoluteY="575dp" />
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="590dp"
+        tools:ignore="MissingConstraints" />
     <Button
         android:layout_width="200dp"
         android:layout_height="50dp"
