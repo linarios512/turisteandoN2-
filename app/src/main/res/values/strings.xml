@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="resenahoteles">
-        Casi todo el mundo puede reservar un viaje, pero no todo el mundo puede planear una aventura
-    única que sea accesible, placentera y divertida para todos los miembros de su grupo.
-    nuestro objetivo es brindarte una amplia oferta en Hoteles y una herramienta de comparación de viajes
+
+    Nuestro objetivo es brindarte una amplia oferta en Hoteles y una herramienta de comparación de viajes
     de última generación para que la planificación sea más fácil que nunca.
 </string>
     <string name="resenarestaurantes">
-
+"Descubre restaurantes  excepcionales donde la cocina de calidad y el ambiente encantador
+        se unen para ofrecerte una experiencia gastronómica inolvidable. ¡Una combinación perfecta de sabor y ambiente!"
 
     </string>
 
     <string name="resenasitios">
-
+"Descubre increíbles sitios turísticos. Desde monumentos históricos hasta paisajes impresionantes, estos lugares te sorprenderán.
+        ¡Una experiencia única llena de belleza y encanto!"
 
     </string>
 
