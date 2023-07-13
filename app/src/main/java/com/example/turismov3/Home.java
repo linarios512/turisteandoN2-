@@ -60,17 +60,22 @@ public class Home extends AppCompatActivity {
         int itemSeleccionado=item.getItemId();
         switch (itemSeleccionado){
             case(R.id.opcion1):
-                Toast.makeText(this, "Quiero que este en ingles", Toast.LENGTH_SHORT).show();
+
                 break;
             case (R.id.opcion2):
-                Toast.makeText(this, "Quiero que este en español", Toast.LENGTH_SHORT).show();
+
                 break;
             case (R.id.opcion3):
-                Toast.makeText(this, "Quiero que este en italiano", Toast.LENGTH_SHORT).show();
+
                 break;
             case (R.id.opcion4):
-                Toast.makeText(this, "Quiero ir a acerca de nosotros", Toast.LENGTH_SHORT).show();
+
+                Intent intent = new Intent(Home.this,Acerca.class);
+                startActivity(intent);
+
+
                 break;
+
         }
 
         return super.onOptionsItemSelected(item);

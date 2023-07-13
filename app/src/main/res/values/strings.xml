@@ -22,6 +22,10 @@
     <string name="opcion3"> Italiano </string>
     <string name="opcion4"> Acerca de </string>
 
+    <string name="usuario">Usuario
+</string>
 
+    <string name="contraseña">Contraseña
+</string>
 
 </resources>

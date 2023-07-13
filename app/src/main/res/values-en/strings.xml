@@ -22,4 +22,10 @@
         <string name="opcion4"> About Us </string>
 
 
+
+    <string name="Usuario">user
+</string>
+
+    <string name="Contraseña"> password
+</string>
 </resources>
