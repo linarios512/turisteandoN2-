@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <string name="resenahoteles">
 
     Nuestro objetivo es brindarte una amplia oferta en Hoteles y una herramienta de comparación de viajes
@@ -22,10 +23,10 @@
     <string name="opcion3"> Italiano </string>
     <string name="opcion4"> Acerca de </string>
 
-    <string name="usuario">Usuario
-</string>
+    <string name="usuario">Usuario</string>
 
-    <string name="contraseña">Contraseña
-</string>
+    <string name="contraseña">Contraseña</string>
 
+    <string name="INGRESO"> INGRESAR
+    </string>
 </resources>

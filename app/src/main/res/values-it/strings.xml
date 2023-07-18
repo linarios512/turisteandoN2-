@@ -9,12 +9,14 @@
 
     <string name="resenarestaurantes">
 
-
+"Scopri ristoranti eccezionali dove una cucina di qualità e un'atmosfera affascinante
+        si uniscono per offrirvi un'esperienza gastronomica indimenticabile. Una perfetta combinazione di sapore e atmosfera!"
 
     </string>
 
     <string name="resenasitios">
-
+"Scopri incredibili siti turistici. Dai monumenti storici ai paesaggi mozzafiato, questi luoghi ti stupiranno.
+        Un'esperienza unica piena di bellezza e fascino!"
 
     </string>
 
@@ -25,10 +27,12 @@
 
 
 
-    <string name="Usuario">utente
-</string>
+    <string name="Usuario"> utente</string>
 
-    <string name="Contraseña"> parola
-</string>
+    <string name="Contraseña"> parola</string>
+
+    <string name="INGRESO"> ENTRARE DENTRO
+    </string>
+
 
 </resources>
