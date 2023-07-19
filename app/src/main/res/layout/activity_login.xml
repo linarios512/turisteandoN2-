@@ -33,7 +33,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintVertical_bias="0.05"
-        android:textSize="30dp"
+        android:textSize="40dp"
         android:textColor="@color/color6" />
 
     <EditText
@@ -49,7 +49,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintVertical_bias="0.01"
-        android:textSize="30dp"
+        android:textSize="40dp"
         android:textColor="@color/color6" />
 
     <ImageView
@@ -95,7 +95,7 @@
         app:layout_constraintHeight="60dp"/>
 
     <Button
-        android:id="@+id/botonsitios"
+        android:id="@+id/botoningreso"
         android:text="@string/INGRESO"
         android:textSize="30dp"
         android:gravity="center"

@@ -1,34 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="resenahoteles">
-        Casi todo el mundo puede reservar un viaje, pero no todo el mundo puede planear una aventura
-    única que sea accesible, placentera y divertida para todos los miembros de su grupo.
-    nuestro objetivo es brindarte una amplia oferta en Hoteles y una herramienta de comparación de viajes
-    de última generación para que la planificación sea más fácil que nunca.
+    Our goal is to provide you with a wide range of hotels and a travel comparison tool.
+    state-of-the-art to make planning easier than ever.
 </string>
+
     <string name="resenarestaurantes">
 "Discover exceptional restaurants where quality cuisine and a charming atmosphere
         come together to offer you an unforgettable gastronomic experience. A perfect combination of flavor and atmosphere!"
-
     </string>
 
     <string name="resenasitios">
 "Discover incredible tourist sites. From historical monuments to breathtaking landscapes, these places will amaze you.
         A unique experience full of beauty and charm!"
-
     </string>
 
-        <string name="opcion1"> English </string>
-        <string name="opcion2"> Spanish </string>
-        <string name="opcion3"> Italian </string>
-        <string name="opcion4"> About Us </string>
+        <string name="opcion1"> English
+        </string>
 
+        <string name="opcion2"> Spanish
+        </string>
 
+        <string name="opcion3"> Italian
+        </string>
 
-    <string name="Usuario">user</string>
+        <string name="opcion4"> About Us
+        </string>
 
-    <string name="Contraseña"> password</string>
+    <string name="usuario">user
+    </string>
 
-    <string name="INGRESO"> GET INTO
+    <string name="contraseña"> password
+    </string>
+
+    <string name="INGRESO">GET INTO
+    </string>
+
+    <string name="Bienvenido">Welcome
     </string>
 </resources>

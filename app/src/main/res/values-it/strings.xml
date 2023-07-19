@@ -1,37 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="resenahoteles">
-        Casi todo el mundo puede reservar un viaje, pero no todo el mundo puede planear una aventura
-    única que sea accesible, placentera y divertida para todos los miembros de su grupo.
-    nuestro objetivo es brindarte una amplia oferta en Hoteles y una herramienta de comparación de viajes
-    de última generación para que la planificación sea más fácil que nunca.
+    Il nostro obiettivo e quello di fornirti una vasta gamma di hotel e uno strumento di comparazione dei viaggi.
+    all avanguardia per rendere la pianificazione piu semplice che mai.
 </string>
 
     <string name="resenarestaurantes">
 
-"Scopri ristoranti eccezionali dove una cucina di qualità e un'atmosfera affascinante
-        si uniscono per offrirvi un'esperienza gastronomica indimenticabile. Una perfetta combinazione di sapore e atmosfera!"
+ Scopri ristoranti eccezionali dove una cucina di qualita e un atmosfera affascinante
+        si uniscono per offrirvi un esperienza gastronomica indimenticabile. Una perfetta combinazione di sapore e atmosfera!"
 
     </string>
 
     <string name="resenasitios">
-"Scopri incredibili siti turistici. Dai monumenti storici ai paesaggi mozzafiato, questi luoghi ti stupiranno.
-        Un'esperienza unica piena di bellezza e fascino!"
+ Scopri incredibili siti turistici. Dai monumenti storici ai paesaggi mozzafiato, questi luoghi ti stupiranno.
+        Un esperienza unica piena di bellezza e fascino!"
 
     </string>
 
-        <string name="opcion1"> Inglese </string>
-        <string name="opcion2"> Spagnolo </string>
-        <string name="opcion3"> Italiano </string>
-        <string name="opcion4"> Su di noi</string>
+        <string name="opcion1"> Inglese
+        </string>
+
+        <string name="opcion2"> Spagnolo
+        </string>
+
+        <string name="opcion3"> Italiano
+        </string>
+
+        <string name="opcion4"> Su di noi
+        </string>
 
 
 
-    <string name="Usuario"> utente</string>
+    <string name="usuario"> utente
+    </string>
 
-    <string name="Contraseña"> parola</string>
+    <string name="contraseña">parola
+    </string>
 
-    <string name="INGRESO"> ENTRARE DENTRO
+    <string name="INGRESO">ENTRARE DENTRO
+    </string>
+
+    <string name="Bienvenido">Benvenuto
     </string>
 
 
