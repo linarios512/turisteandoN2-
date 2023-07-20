@@ -40,4 +40,23 @@
     <string name="Bienvenido">BIENVENIDO
     </string>
 
+    <string name="resenaLina">
+        Soy una mujer de
+        31 años, me encuentro en
+        la etapa de estudiante.
+        Estoy comprometida con
+        mi educacion y me
+        esfuerzo mucho en alcanzar mis
+        metas academicas y profesionales.
+        Como mujer, enfrento desafios
+        y oportunidades unicas en
+        mi vida cotidiana.
+    </string>
+
+    <string name="correogit">En gitHub puedes chequear mis trabajos,
+        como linarios512
+    </string>
+
+
+
 </resources>
