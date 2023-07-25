@@ -31,7 +31,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintVertical_bias="0.02"
-        android:textSize="30dp"
+        android:textSize="20dp"
         android:textColor="@color/color6" />
 
     <TextView
@@ -44,7 +44,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintVertical_bias="0.00"
-        android:textSize="30dp"
+        android:textSize="20dp"
         android:textColor="@color/color6" />
 
     <ImageView
@@ -57,8 +57,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         android:src="@drawable/disenogutapefondo"
         app:layout_constraintVertical_bias="0.16"
-        app:layout_constraintWidth="700dp"
-        app:layout_constraintHeight="200dp"/>
+        app:layout_constraintWidth="400dp"
+        app:layout_constraintHeight="170dp"/>
 
     <Button
         android:id="@+id/botonhoteles"
