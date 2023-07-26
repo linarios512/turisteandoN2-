@@ -39,13 +39,16 @@
     <string name="Bienvenido">Welcome
     </string>
 
-    <string name="resenaLina"> I am a 31-year-old woman, I am in the student stage. I am
-        I am committed to my education and I work hard to achieve my academic goals and
+    <string name="resenaLina">
+        I am a 31-year-old woman,
+        I am in the student stage. I am
+        I am committed to my
+        education and I work hard to
+        achieve my academic goals and
         professionals.
-        As a woman, I face unique challenges and opportunities in my everyday life.
+        As a woman,
+        I face unique challenges and opportunities
+        in my everyday life.
     </string>
 
-    <string name="correogit">En gitHub puedes chequear mis trabajos,
-        como linarios512
-    </string>
 </resources>
