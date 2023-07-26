@@ -51,4 +51,12 @@
         in my everyday life.
     </string>
 
+    <string name="hoteles">hotels
+    </string>
+
+    <string name="restaurantes">restaurants
+    </string>
+
+    <string name="sitiosturisticos">tourist sites
+    </string>
 </resources>

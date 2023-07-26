@@ -39,10 +39,6 @@ public class Home extends AppCompatActivity {
         //Uniendo el texto del PUTEXTRA con el TEXTVIEW
         nombreCliente.setText(nombre);
 
-
-
-
-
         // DETECTANDO EVENTOS
 
         botonHoteles.setOnClickListener(new View.OnClickListener() {
@@ -56,14 +52,16 @@ public class Home extends AppCompatActivity {
         botonRestaurantes.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(Home.this, "di click", Toast.LENGTH_SHORT).show();
+                Intent intent=new Intent(Home.this,RestaurantesHome.class);
+                startActivity(intent);
             }
         });
 
-        botonRestaurantes.setOnClickListener(new View.OnClickListener() {
+        botonSitios.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(Home.this, "di click", Toast.LENGTH_SHORT).show();
+                Intent intent=new Intent(Home.this,RestaurantesHome.class);
+                startActivity(intent);
             }
         });
 

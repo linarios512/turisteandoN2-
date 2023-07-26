@@ -53,5 +53,13 @@
         mi vida cotidiana.
     </string>
 
+    <string name="hoteles">hoteles
+    </string>
+
+    <string name="restaurantes">restaurantes
+    </string>
+
+    <string name="sitiosturisticos">sitios turisticos
+    </string>
 
 </resources>
