@@ -62,4 +62,13 @@
     <string name="sitiosturisticos">sitios turisticos
     </string>
 
-</resources>
+    <string name="Contacto"> Contacto
+    </string>
+
+    <string name="Telefono"> Telefono: 3222555127
+    </string>
+
+    <string name="Platorecomendado"> PLATO RECOMENDADO
+    </string>
+
+    </resources>
