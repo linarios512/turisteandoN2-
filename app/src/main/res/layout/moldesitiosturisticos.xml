@@ -5,26 +5,41 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <TextView
-        android:id="@+id/nombrerestaurantes"
+        android:id="@+id/nombreSitioTuristico"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintVertical_bias="0.05"
-        android:textSize="25dp"
+        android:text="Nombre:"
+      app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintVertical_bias="0.03"
+        android:textSize="22dp"
         android:textStyle="bold"
-        android:text="RESTAURANTE OREGANO"
+        />
+
+    <TextView
+        android:id="@+id/sitioturistico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/nombreSitioTuristico"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintVertical_bias="0.03"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:text="sitio"
         />
 
     <ImageView
-        android:id="@+id/restauranteoregano"
+        android:id="@+id/imagentourguatape"
         android:layout_width="match_parent"
         android:layout_height="250dp"
-        android:src="@drawable/restauranteoregano"
-        app:layout_constraintTop_toBottomOf="@+id/nombrerestaurantes"
+        android:src="@drawable/imagentourguatape"
+        app:layout_constraintTop_toBottomOf="@+id/nombreSitioTuristico"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -33,24 +48,39 @@
         />
 
     <TextView
-        android:id="@+id/rangoprecio"
+        android:id="@+id/contactositios"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-       app:layout_constraintTop_toBottomOf="@+id/restauranteoregano"
+        app:layout_constraintTop_toBottomOf="@+id/imagentourguatape"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintVertical_bias="0.04"
         app:layout_constraintHorizontal_bias="0.1"
-        android:text="$250.000 COP - $450.000 COP"
+        android:text="@string/Contacto"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/contactoSitios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/imagentourguatape"
+        app:layout_constraintStart_toEndOf="@id/contactoSitios"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.039"
+        app:layout_constraintHorizontal_bias="0.5"
+        android:text="Lina Rios"
         android:textSize="20dp"
         />
 
     <TextView
-        android:id="@+id/telefonorestaurante"
+        android:id="@+id/telefonoSitios"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/rangoprecio"
+        app:layout_constraintTop_toBottomOf="@+id/contactoSitios"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -61,34 +91,18 @@
         />
 
     <TextView
-        android:id="@+id/platorecomendado"
+        android:id="@+id/rangoprecioSitios"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/telefonorestaurante"
+        app:layout_constraintTop_toBottomOf="@+id/telefonoSitios"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintVertical_bias="0.05"
-        app:layout_constraintHorizontal_bias="0"
-        android:text="@string/Platorecomendado"
-        android:textSize="20dp"
-        android:textStyle="bold"
-        />
-
-    <TextView
-        android:id="@+id/platorecomendadotexto"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-       app:layout_constraintTop_toBottomOf="@id/telefonorestaurante"
-        app:layout_constraintStart_toEndOf="@id/platorecomendado"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintVertical_bias="0.05"
-        app:layout_constraintHorizontal_bias="0.09"
-        android:text="falta "
+        app:layout_constraintVertical_bias="0.04"
+        app:layout_constraintHorizontal_bias="0.1"
+        android:text="$500.000 COP - $700.000 COP"
         android:textSize="20dp"
         />
-
 
 
 
