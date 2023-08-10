@@ -105,6 +105,7 @@
 
 
     <Button
+        android:id="@+id/botonhoteles"
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:background="@color/color6"
