@@ -5,7 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <TextView
-        android:id="@+id/nombrerestaurantes"
+        android:id="@+id/nombrelistarestaurantes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent"
@@ -24,7 +24,7 @@
         android:layout_width="match_parent"
         android:layout_height="250dp"
         android:src="@drawable/restauranteoregano"
-        app:layout_constraintTop_toBottomOf="@+id/nombrerestaurantes"
+        app:layout_constraintTop_toBottomOf="@+id/nombrelistarestaurantes"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -33,7 +33,7 @@
         />
 
     <TextView
-        android:id="@+id/rangoprecio"
+        android:id="@+id/preciolistarestaurantes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
        app:layout_constraintTop_toBottomOf="@+id/restauranteoregano"
@@ -50,7 +50,7 @@
         android:id="@+id/telefonorestaurante"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/rangoprecio"
+        app:layout_constraintTop_toBottomOf="@+id/preciolistarestaurantes"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
