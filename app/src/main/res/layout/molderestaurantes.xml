@@ -20,7 +20,7 @@
         />
 
     <ImageView
-        android:id="@+id/restauranteoregano"
+        android:id="@+id/fotolistarestaurantes"
         android:layout_width="match_parent"
         android:layout_height="250dp"
         android:src="@drawable/restauranteoregano"
@@ -36,7 +36,7 @@
         android:id="@+id/preciolistarestaurantes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-       app:layout_constraintTop_toBottomOf="@+id/restauranteoregano"
+       app:layout_constraintTop_toBottomOf="@+id/fotolistarestaurantes"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -47,7 +47,7 @@
         />
 
     <TextView
-        android:id="@+id/telefonorestaurante"
+        android:id="@+id/telefonolistarestaurante"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@+id/preciolistarestaurantes"

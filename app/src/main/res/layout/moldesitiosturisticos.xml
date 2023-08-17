@@ -20,7 +20,7 @@
         />
 
     <TextView
-        android:id="@+id/sitioturistico"
+        android:id="@+id/nombrelistasitiosTuristicos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent"
@@ -35,7 +35,7 @@
         />
 
     <ImageView
-        android:id="@+id/imagentourguatape"
+        android:id="@+id/fotolistasitiosTuristicos"
         android:layout_width="match_parent"
         android:layout_height="250dp"
         android:src="@drawable/imagentourguatape"
@@ -48,10 +48,10 @@
         />
 
     <TextView
-        android:id="@+id/contactositios"
+        android:id="@+id/contactolistasitiosTuristicos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/imagentourguatape"
+        app:layout_constraintTop_toBottomOf="@+id/fotolistasitiosTuristicos"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -66,7 +66,7 @@
         android:id="@+id/contactoSitios"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/imagentourguatape"
+        app:layout_constraintTop_toBottomOf="@+id/fotolistasitiosTuristicos"
         app:layout_constraintStart_toEndOf="@id/contactoSitios"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -77,7 +77,7 @@
         />
 
     <TextView
-        android:id="@+id/telefonoSitios"
+        android:id="@+id/telefonolistasitiosTuristicos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@+id/contactoSitios"
@@ -91,10 +91,10 @@
         />
 
     <TextView
-        android:id="@+id/rangoprecioSitios"
+        android:id="@+id/preciositiosTuristicos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/telefonoSitios"
+        app:layout_constraintTop_toBottomOf="@+id/telefonolistasitiosTuristicos"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"

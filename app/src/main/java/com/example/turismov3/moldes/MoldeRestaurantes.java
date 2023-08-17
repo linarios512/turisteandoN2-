@@ -3,7 +3,7 @@ package com.example.turismov3.moldes;
 public class MoldeRestaurantes {
 
     private String nombre;
-    private String foto;
+    private Integer foto;
     private String telefono;
     private String rangoprecio;
     private String platorecomendado;
@@ -12,7 +12,7 @@ public class MoldeRestaurantes {
     public MoldeRestaurantes() { //constructor vacio
     }
 
-    public MoldeRestaurantes(String nombre, String foto, String telefono, String rangoprecio, String platorecomendado) {
+    public MoldeRestaurantes(String nombre, Integer foto, String telefono, String rangoprecio, String platorecomendado) {
         this.nombre = nombre;
         this.foto = foto;
         this.telefono = telefono;
@@ -28,11 +28,11 @@ public class MoldeRestaurantes {
         this.nombre = nombre;
     }
 
-    public String getFoto() {
+    public Integer getFoto() {
         return foto;
     }
 
-    public void setFoto(String foto) {
+    public void setFoto(Integer foto) {
         this.foto = foto;
     }
 
@@ -58,5 +58,17 @@ public class MoldeRestaurantes {
 
     public void setPlatorecomendado(String platorecomendado) {
         this.platorecomendado = platorecomendado;
+
+
+
+
+
+
+
+
     }
 }
+
+
+
+

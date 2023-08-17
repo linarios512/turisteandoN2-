@@ -1,6 +1,6 @@
 package com.example.turismov3.moldes;
 
-public class MoldeTurismo {
+public class MoldeSitiosTuristicos {
 
     private String nombre;//atributos de la clase
     private String Nombrecontacto;
@@ -10,10 +10,10 @@ public class MoldeTurismo {
 
 
 
-    public MoldeTurismo() {  //constructor vacio: sirven para sacar copias a los valores
+    public MoldeSitiosTuristicos() {  //constructor vacio: sirven para sacar copias a los valores
     }
 
-    public MoldeTurismo(String nombre, String nombrecontacto, String telefono, String precio, Integer foto) {  //constructor lleno
+    public MoldeSitiosTuristicos(String nombre, String nombrecontacto, String telefono, String precio, Integer foto) {  //constructor lleno
         this.nombre = nombre;
         Nombrecontacto = nombrecontacto;
         this.telefono = telefono;

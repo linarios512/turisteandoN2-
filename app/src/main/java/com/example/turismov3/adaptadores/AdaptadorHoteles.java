@@ -14,31 +14,31 @@ import com.example.turismov3.moldes.MoldeHotel;
 
 import java.util.ArrayList;
 
-public class adaptadorHoteles extends RecyclerView .Adapter<adaptadorHoteles.viewHolder>{  // adaptador de un recycle view
+public class AdaptadorHoteles extends RecyclerView.Adapter<AdaptadorHoteles.viewHolder>{  // adaptador de un recycle view
 
     //Todo adaptador tiene una lista de elementos
     public ArrayList<MoldeHotel> ListaHoteles;
 
     //creamos un constructor vacio
-    public adaptadorHoteles() {
+    public AdaptadorHoteles() {
     }
 
 
     //creamos un constructor lleno
-    public adaptadorHoteles(ArrayList<MoldeHotel> listaHoteles) {
+    public AdaptadorHoteles(ArrayList<MoldeHotel> listaHoteles) {
         this.ListaHoteles = listaHoteles;
     }
 
     @NonNull
     @Override
-    public adaptadorHoteles.viewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+    public AdaptadorHoteles.viewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         //esta parte de codigo permite crear N copias del molde grafico
         View vista= LayoutInflater.from(parent.getContext()).inflate(R.layout.moldehotel,null,false);
         return new viewHolder(vista);
     }
 
     @Override
-    public void onBindViewHolder(@NonNull adaptadorHoteles.viewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull AdaptadorHoteles.viewHolder holder, int position) {
     holder.actualizarDatos(ListaHoteles.get(position));
 
     }
@@ -49,10 +49,12 @@ public class adaptadorHoteles extends RecyclerView .Adapter<adaptadorHoteles.vie
     }
 
     public class viewHolder extends RecyclerView.ViewHolder {
+
         ImageView fotoHotel;
         TextView nombreHotel;
         TextView precioHotel;
         TextView contactoHotel;
+
         public viewHolder(@NonNull View itemView) {
             super(itemView);
             fotoHotel=itemView.findViewById(R.id.fotolistahotel);
@@ -66,7 +68,7 @@ public class adaptadorHoteles extends RecyclerView .Adapter<adaptadorHoteles.vie
             fotoHotel.setImageResource(moldeHotel.getFoto());
             nombreHotel.setText(moldeHotel.getNombre());
             precioHotel.setText(moldeHotel.getPrecio());
-            contactoHotel.setText(moldeHotel.);
+            contactoHotel.setText(moldeHotel.getTelefono());
 
         }
     }

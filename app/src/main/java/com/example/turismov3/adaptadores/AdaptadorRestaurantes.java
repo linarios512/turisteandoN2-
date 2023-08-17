@@ -11,65 +11,66 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.turismov3.R;
 import com.example.turismov3.moldes.MoldeHotel;
+import com.example.turismov3.moldes.MoldeRestaurantes;
 
 import java.util.ArrayList;
 
-public class AdaptadorRestaurantes {
+public class AdaptadorRestaurantes extends RecyclerView.Adapter<AdaptadorRestaurantes.viewHolder> {
 
-    public ArrayList<MoldeHotel> ListaHoteles;
+    public ArrayList<MoldeRestaurantes> listaRestaurantes;
 
     //creamos un constructor vacio
-    public adaptadorRestaurantes() {
+    public AdaptadorRestaurantes() {
     }
 
 
     //creamos un constructor lleno
-    public adaptadorRestaurantes(ArrayList<MoldeHotel> listaHoteles) {
-        this.ListaHoteles = listaHoteles;
+    public AdaptadorRestaurantes(ArrayList<MoldeHotel> listaHoteles) {
+        this.listaRestaurantes = listaRestaurantes;
     }
 
     @NonNull
     @Override
-    public adaptadorHoteles.viewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+    public AdaptadorRestaurantes.viewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         //esta parte de codigo permite crear N copias del molde grafico
         View vista= LayoutInflater.from(parent.getContext()).inflate(R.layout.moldehotel,null,false);
-        return new adaptadorRestaurantes.viewHolder(vista);
+        return new AdaptadorRestaurantes.viewHolder(vista);
     }
 
     @Override
-    public void onBindViewHolder(@NonNull adaptadorHoteles.viewHolder holder, int position) {
-        holder.actualizarDatos(ListaHoteles.get(position));
-
+    public void onBindViewHolder(@NonNull viewHolder holder, int position) {
+        holder.actualizarDatos(listaRestaurantes.get(position));
     }
+
+
 
     @Override
     public int getItemCount() {
-        return ListaHoteles.size();
+        return listaRestaurantes.size();
     }
 
     public class viewHolder extends RecyclerView.ViewHolder {
 
-        ImageView fotoHotel;
-        TextView nombreHotel;
-        TextView precioHotel;
-        TextView contactoHotel;
+        ImageView fotoRestaurantes;
+        TextView nombreRestaurantes;
+        TextView precioRestaurantes;
+        TextView contactoRestaurantes;
+
         public viewHolder(@NonNull View itemView) {
             super(itemView);
-            fotoHotel=itemView.findViewById(R.id.fotolistahotel);
-            nombreHotel=itemView.findViewById(R.id.nombrelistahotel);
-            precioHotel=itemView.findViewById(R.id.preciolistahotel);
-            contactoHotel=itemView.findViewById(R.id.contactolistahotel);
-
+            fotoRestaurantes=itemView.findViewById(R.id.fotolistarestaurantes);
+            nombreRestaurantes=itemView.findViewById(R.id.nombrelistarestaurantes);
+            precioRestaurantes=itemView.findViewById(R.id.preciolistarestaurantes);
+            contactoRestaurantes=itemView.findViewById(R.id.telefonolistarestaurante);
         }
 
-        public void actualizarDatos(MoldeHotel moldeHotel) {
-            fotoHotel.setImageResource(moldeHotel.getFoto());
-            nombreHotel.setText(moldeHotel.getNombre());
-            precioHotel.setText(moldeHotel.getPrecio());
-            contactoHotel.setText(moldeHotel.);
-
+        public void actualizarDatos(MoldeRestaurantes moldeRestaurantes) {
+            fotoRestaurantes.setImageResource(moldeRestaurantes.getFoto());
+            nombreRestaurantes.setText(moldeRestaurantes.getNombre());
+            precioRestaurantes.setText(moldeRestaurantes.getRangoprecio());
+            contactoRestaurantes.setText(moldeRestaurantes.getTelefono());
         }
     }
 }
 
-}
+
