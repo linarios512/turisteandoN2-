@@ -15,7 +15,7 @@ public class MoldeSitiosTuristicos {
 
     public MoldeSitiosTuristicos(String nombre, String nombrecontacto, String telefono, String precio, Integer foto) {  //constructor lleno
         this.nombre = nombre;
-        Nombrecontacto = nombrecontacto;
+        this.Nombrecontacto= nombrecontacto;
         this.telefono = telefono;
         this.precio = precio;
         this.foto = foto;

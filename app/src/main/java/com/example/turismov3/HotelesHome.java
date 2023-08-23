@@ -24,7 +24,6 @@ public class HotelesHome extends AppCompatActivity {
             public void onClick(View v) {
                Intent intent= new Intent(HotelesHome.this,ListaHoteles.class);
                startActivity(intent);
-
             }
         });
 

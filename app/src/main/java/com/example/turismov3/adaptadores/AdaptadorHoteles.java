@@ -85,4 +85,5 @@ public class AdaptadorHoteles extends RecyclerView.Adapter<AdaptadorHoteles.view
 // infalter : expandir
 //viewHolder: pinta un solo elemento
 // itemView.findViewById():::: relaciona foto con id
+// recyclerview: importamos desde gradle para crear la lista
 

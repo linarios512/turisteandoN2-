@@ -101,7 +101,9 @@
         tools:layout_editor_absoluteX="90dp"
         tools:layout_editor_absoluteY="590dp"
         tools:ignore="MissingConstraints" />
+
     <Button
+        android:id="@+id/botonsitios"
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:background="@color/color6"

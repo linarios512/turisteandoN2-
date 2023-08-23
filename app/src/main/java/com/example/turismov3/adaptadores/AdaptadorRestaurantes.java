@@ -20,12 +20,13 @@ public class AdaptadorRestaurantes extends RecyclerView.Adapter<AdaptadorRestaur
     public ArrayList<MoldeRestaurantes> listaRestaurantes;
 
     //creamos un constructor vacio
+
+
     public AdaptadorRestaurantes() {
     }
 
-
     //creamos un constructor lleno
-    public AdaptadorRestaurantes(ArrayList<MoldeHotel> listaHoteles) {
+    public AdaptadorRestaurantes(ArrayList<MoldeRestaurantes> listaHoteles) {
         this.listaRestaurantes = listaRestaurantes;
     }
 

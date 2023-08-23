@@ -25,7 +25,7 @@ public class AdaptadorSitiosTuristicos extends RecyclerView.Adapter<AdaptadorSit
 
 
     //creamos un constructor lleno
-    public AdaptadorSitiosTuristicos(ArrayList<MoldeHotel> listaHoteles) {
+    public AdaptadorSitiosTuristicos(ArrayList<MoldeSitiosTuristicos> listaHoteles) {
         this.listaSitiosTuristicos = listaSitiosTuristicos;
     }
 
