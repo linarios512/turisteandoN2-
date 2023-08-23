@@ -14,7 +14,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintVertical_bias="0.05"
-        android:textSize="25dp"
+        android:textSize="27dp"
         android:textStyle="bold"
         android:text="RESTAURANTE OREGANO"
         />
@@ -85,7 +85,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintVertical_bias="0.05"
         app:layout_constraintHorizontal_bias="0.09"
-        android:text="falta "
+        android:text="- "
         android:textSize="20dp"
         />
 
