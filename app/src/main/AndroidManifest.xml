@@ -49,7 +49,9 @@
         <activity
             android:name=".TurismoHome"
             android:exported="false" />
+
         <activity
+
             android:name=".RestaurantesHome"
             android:exported="false" />
         <activity

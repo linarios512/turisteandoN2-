@@ -25,7 +25,7 @@ public class AdaptadorSitiosTuristicos extends RecyclerView.Adapter<AdaptadorSit
 
 
     //creamos un constructor lleno
-    public AdaptadorSitiosTuristicos(ArrayList<MoldeSitiosTuristicos> listaHoteles) {
+    public AdaptadorSitiosTuristicos(ArrayList<MoldeSitiosTuristicos> listaSitiosTuristicos) {
         this.listaSitiosTuristicos = listaSitiosTuristicos;
     }
 
@@ -33,7 +33,7 @@ public class AdaptadorSitiosTuristicos extends RecyclerView.Adapter<AdaptadorSit
     @Override
     public AdaptadorSitiosTuristicos.viewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         //esta parte de codigo permite crear N copias del molde grafico
-        View vista= LayoutInflater.from(parent.getContext()).inflate(R.layout.moldehotel,null,false);
+        View vista= LayoutInflater.from(parent.getContext()).inflate(R.layout.moldesitiosturisticos,null,false);
         return new AdaptadorSitiosTuristicos.viewHolder(vista);
     }
 

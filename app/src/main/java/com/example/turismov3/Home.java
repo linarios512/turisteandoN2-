@@ -1,6 +1,5 @@
 package com.example.turismov3;
 
-import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -11,7 +10,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import java.util.Locale;
 
@@ -60,7 +58,7 @@ public class Home extends AppCompatActivity {
         botonSitios.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(Home.this,RestaurantesHome.class);
+                Intent intent=new Intent(Home.this, TurismoHome.class);
                 startActivity(intent);
             }
         });
