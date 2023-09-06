@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.cardview.widget.CardView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    app:cardCornerRadius="15dp"
-    app:cardElevation="4dp"
-    app:cardUseCompatPadding="true"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
-
-    <androidx.constraintlayout.widget.ConstraintLayout
-
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".AmpliandoTurismo">
 
     <TextView
         android:id="@+id/nombreSitioTuristico"
@@ -22,14 +15,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         android:text="NOMBRE: "
-      app:layout_constraintHorizontal_bias="0.01"
+        app:layout_constraintHorizontal_bias="0.01"
         app:layout_constraintVertical_bias="0.03"
         android:textSize="29dp"
         android:textStyle="bold"
         />
 
     <TextView
-        android:id="@+id/nombrelistasitiosTuristicos"
+        android:id="@+id/nombreampliandositiosTuristicos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent"
@@ -44,7 +37,7 @@
         />
 
     <ImageView
-        android:id="@+id/fotolistasitiosTuristicos"
+        android:id="@+id/fotoampliandositiosTuristicos"
         android:layout_width="match_parent"
         android:layout_height="250dp"
         android:src="@drawable/fotositiost1"
@@ -57,10 +50,10 @@
         />
 
     <TextView
-        android:id="@+id/contactolistasitiosTuristicos"
+        android:id="@+id/contactoampliandositiosTuristicos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/fotolistasitiosTuristicos"
+        app:layout_constraintTop_toBottomOf="@+id/fotoampliandositiosTuristicos"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -75,7 +68,7 @@
         android:id="@+id/contactoSitios"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/fotolistasitiosTuristicos"
+        app:layout_constraintTop_toBottomOf="@+id/fotoampliandositiosTuristicos"
         app:layout_constraintStart_toEndOf="@id/contactoSitios"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -86,7 +79,7 @@
         />
 
     <TextView
-        android:id="@+id/telefonolistasitiosTuristicos"
+        android:id="@+id/telefonoampliandositiosTuristicos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@+id/contactoSitios"
@@ -100,10 +93,10 @@
         />
 
     <TextView
-        android:id="@+id/preciositiosTuristicos"
+        android:id="@+id/precioampliandositiosTuristicos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/telefonolistasitiosTuristicos"
+        app:layout_constraintTop_toBottomOf="@+id/telefonoampliandositiosTuristicos"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -113,9 +106,33 @@
         android:textSize="20dp"
         />
 
+    <TextView
+        android:id="@+id/resenaampliandoturismo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/precioampliandositiosTuristicos"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.4"
+        app:layout_constraintHorizontal_bias="0.6"
+        android:text=""
+        android:textSize="20dp"
+        />
 
+    <Button
+        android:id="@+id/botonampliandoturismo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="110dp"
+        android:background="@color/color6"
+        android:text="@string/Reservar"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resenaampliandoturismo"
+        app:layout_constraintVertical_bias="0.21" />
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
-
-</androidx.cardview.widget.CardView>
-
+</androidx.constraintlayout.widget.ConstraintLayout>

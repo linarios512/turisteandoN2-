@@ -73,5 +73,16 @@
     <string name="Platorecomendado"> PIATTO CONSIGLIATO
     </string>
 
+    <string name="Resenaampliandohotel"> "Glamping Hotel a Guatapé:
+        fascino rurale, lusso naturale, il rifugio perfetto.
+        Natura e comfort in armonia.
+    </string>
 
-    </resources>
+    <string name="Reservar">Riserva
+    </string>
+
+    <string name="Resenaampliandorestaurante">""Ristorante Oregano a Guatape:
+        deliziosa cucina colombiana, vista panoramica sul lago e calorosa ospitalita lo rendono una visita imperdibile."
+    </string>
+
+</resources>

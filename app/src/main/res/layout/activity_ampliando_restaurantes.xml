@@ -1,19 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.cardview.widget.CardView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    app:cardCornerRadius="15dp"
-    app:cardElevation="4dp"
-    app:cardUseCompatPadding="true"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    android:layout_height="match_parent"
+    tools:context=".AmpliandoRestaurantes">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/nombrelistarestaurantes"
+        android:id="@+id/nombreampliandorestaurantes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent"
@@ -28,11 +23,11 @@
         />
 
     <ImageView
-        android:id="@+id/fotolistarestaurantes"
+        android:id="@+id/fotoampliandorestaurantes"
         android:layout_width="match_parent"
         android:layout_height="250dp"
         android:src="@drawable/restauranteoregano"
-        app:layout_constraintTop_toBottomOf="@+id/nombrelistarestaurantes"
+        app:layout_constraintTop_toBottomOf="@+id/nombreampliandorestaurantes"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -41,10 +36,10 @@
         />
 
     <TextView
-        android:id="@+id/preciolistarestaurantes"
+        android:id="@+id/precioampliandorestaurantes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-       app:layout_constraintTop_toBottomOf="@+id/fotolistarestaurantes"
+        app:layout_constraintTop_toBottomOf="@+id/fotoampliandorestaurantes"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -55,10 +50,10 @@
         />
 
     <TextView
-        android:id="@+id/telefonolistarestaurante"
+        android:id="@+id/telefonoampliandorestaurante"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/preciolistarestaurantes"
+        app:layout_constraintTop_toBottomOf="@+id/precioampliandorestaurantes"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -69,31 +64,31 @@
         />
 
     <TextView
-        android:id="@+id/platorecomendado"
+        android:id="@+id/platorecomendadoampliando"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/telefonolistarestaurante"
+        app:layout_constraintTop_toBottomOf="@id/telefonoampliandorestaurante"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintVertical_bias="0.05"
         app:layout_constraintHorizontal_bias="0.1"
         android:text="@string/Platorecomendado"
-        android:textSize="14dp"
+        android:textSize="20dp"
         android:textStyle="bold"
         />
 
     <TextView
-        android:id="@+id/platorecomendadotexto"
+        android:id="@+id/platorecomendadotextoampliando"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-       app:layout_constraintTop_toBottomOf="@id/telefonolistarestaurante"
-        app:layout_constraintStart_toEndOf="@id/platorecomendado"
+        app:layout_constraintTop_toBottomOf="@id/telefonoampliandorestaurante"
+        app:layout_constraintStart_toEndOf="@id/platorecomendadoampliando"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintVertical_bias="0.05"
         app:layout_constraintHorizontal_bias="0.09"
-        android:text="kksksks"
+        android:text=""
         android:textSize="20dp"
         />
 
@@ -101,18 +96,42 @@
         android:id="@+id/nombreplatorecomendadotexto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/telefonolistarestaurante"
-        app:layout_constraintStart_toEndOf="@id/platorecomendado"
+        app:layout_constraintTop_toBottomOf="@id/telefonoampliandorestaurante"
+        app:layout_constraintStart_toEndOf="@id/platorecomendadoampliando"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintVertical_bias="0.05"
         app:layout_constraintHorizontal_bias="0.09"
-        android:text="- "
+        android:text=""
         android:textSize="20dp"
         />
 
+    <TextView
+        android:id="@+id/resenaampliandorestaurante"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/precioampliandorestaurantes"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.4"
+        app:layout_constraintHorizontal_bias="0.6"
+        android:text="@string/resenarestaurantes"
+        android:textSize="19dp"
+        />
 
-
+    <Button
+        android:id="@+id/botonampliandohote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="110dp"
+        android:background="@color/color6"
+        android:text="@string/Reservar"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resenaampliandorestaurante"
+        app:layout_constraintVertical_bias="0.21" />
 </androidx.constraintlayout.widget.ConstraintLayout>
-
-    </androidx.cardview.widget.CardView>

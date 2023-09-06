@@ -1,6 +1,8 @@
 package com.example.turismov3.moldes;
 
-public class MoldeRestaurantes {
+import java.io.Serializable;
+
+public class MoldeRestaurantes implements Serializable {
 
     private String nombre;
     private Integer foto;

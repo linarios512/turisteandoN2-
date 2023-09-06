@@ -1,5 +1,6 @@
 package com.example.turismov3.adaptadores;
 
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -9,6 +10,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.turismov3.AmpliandoHotel;
+import com.example.turismov3.AmpliandoRestaurantes;
 import com.example.turismov3.R;
 import com.example.turismov3.moldes.MoldeHotel;
 import com.example.turismov3.moldes.MoldeRestaurantes;
@@ -56,6 +59,7 @@ public class AdaptadorRestaurantes extends RecyclerView.Adapter<AdaptadorRestaur
         TextView nombreRestaurantes;
         TextView precioRestaurantes;
         TextView contactoRestaurantes;
+        TextView platorecomendado;
 
         public viewHolder(@NonNull View itemView) {
             super(itemView);
@@ -63,6 +67,7 @@ public class AdaptadorRestaurantes extends RecyclerView.Adapter<AdaptadorRestaur
             nombreRestaurantes=itemView.findViewById(R.id.nombrelistarestaurantes);
             precioRestaurantes=itemView.findViewById(R.id.preciolistarestaurantes);
             contactoRestaurantes=itemView.findViewById(R.id.telefonolistarestaurante);
+            platorecomendado=itemView.findViewById(R.id.platorecomendadotexto);
         }
 
         public void actualizarDatos(MoldeRestaurantes moldeRestaurantes) {
@@ -70,6 +75,18 @@ public class AdaptadorRestaurantes extends RecyclerView.Adapter<AdaptadorRestaur
             nombreRestaurantes.setText(moldeRestaurantes.getNombre());
             precioRestaurantes.setText(moldeRestaurantes.getRangoprecio());
             contactoRestaurantes.setText(moldeRestaurantes.getTelefono());
+            platorecomendado.setText(moldeRestaurantes.getPlatorecomendado());
+
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+
+                    Intent intent = new Intent(itemView.getContext(), AmpliandoRestaurantes.class);
+                    intent.putExtra("datosrestaurantes",moldeRestaurantes);
+                    itemView.getContext().startActivity(intent);
+
+                }
+            });
         }
     }
 }

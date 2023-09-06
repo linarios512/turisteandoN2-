@@ -71,4 +71,16 @@
     <string name="Platorecomendado"> PLATO RECOMENDADO
     </string>
 
+    <string name="Resenaampliandohotel"> "Hotel Glamping en Guatapé:
+        Encanto campestre, lujo natural, escapada perfecta.
+        Naturaleza y comodidad en armonía"
+    </string>
+
+    <string name="Reservar">Reservar
+    </string>
+
+    <string name="Resenaampliandorestaurante"> "Restaurante Oregano en Guatape:
+        la deliciosa cocina colombiana, las vistas panoramicas al lago y la calida hospitalidad lo convierten en una visita obligada"
+    </string>
+
 </resources>

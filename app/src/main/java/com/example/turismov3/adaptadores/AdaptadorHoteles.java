@@ -1,5 +1,6 @@
 package com.example.turismov3.adaptadores;
 
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -9,6 +10,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.turismov3.AmpliandoHotel;
 import com.example.turismov3.R;
 import com.example.turismov3.moldes.MoldeHotel;
 
@@ -60,7 +62,7 @@ public class AdaptadorHoteles extends RecyclerView.Adapter<AdaptadorHoteles.view
             fotoHotel=itemView.findViewById(R.id.fotolistahotel);
             nombreHotel=itemView.findViewById(R.id.nombrelistahotel);
             precioHotel=itemView.findViewById(R.id.preciolistahotel);
-            contactoHotel=itemView.findViewById(R.id.contactolistahotel);
+            contactoHotel=itemView.findViewById(R.id.telefonolistahotel);
 
         }
 
@@ -69,6 +71,17 @@ public class AdaptadorHoteles extends RecyclerView.Adapter<AdaptadorHoteles.view
             nombreHotel.setText(moldeHotel.getNombre());
             precioHotel.setText(moldeHotel.getPrecio());
             contactoHotel.setText(moldeHotel.getTelefono());
+
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+
+                    Intent intent = new Intent(itemView.getContext(), AmpliandoHotel.class);
+                    intent.putExtra("datoshotel",moldeHotel);
+                    itemView.getContext().startActivity(intent);
+
+                }
+            });
 
         }
     }

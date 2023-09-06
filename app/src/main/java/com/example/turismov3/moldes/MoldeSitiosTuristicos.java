@@ -1,6 +1,8 @@
 package com.example.turismov3.moldes;
 
-public class MoldeSitiosTuristicos {
+import java.io.Serializable;
+
+public class MoldeSitiosTuristicos implements Serializable {
 
     private String nombre;//atributos de la clase
     private String Nombrecontacto;

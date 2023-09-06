@@ -1,5 +1,6 @@
 package com.example.turismov3.adaptadores;
 
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -9,6 +10,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.turismov3.AmpliandoRestaurantes;
+import com.example.turismov3.AmpliandoTurismo;
 import com.example.turismov3.R;
 import com.example.turismov3.moldes.MoldeHotel;
 import com.example.turismov3.moldes.MoldeSitiosTuristicos;
@@ -38,13 +41,10 @@ public class AdaptadorSitiosTuristicos extends RecyclerView.Adapter<AdaptadorSit
     }
 
 
-
     @Override
     public void onBindViewHolder(@NonNull AdaptadorSitiosTuristicos.viewHolder holder, int position) {
         holder.actualizarDatos(listaSitiosTuristicos.get(position));
     }
-
-
 
     @Override
     public int getItemCount() {
@@ -71,6 +71,16 @@ public class AdaptadorSitiosTuristicos extends RecyclerView.Adapter<AdaptadorSit
             nombresitiosTuristicos.setText(moldeSitiosTuristicos.getNombre());
             preciositiosTuristicos.setText(moldeSitiosTuristicos.getPrecio());
             contactositiosTuristicos.setText(moldeSitiosTuristicos.getTelefono());
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+
+                    Intent intent = new Intent(itemView.getContext(), AmpliandoTurismo.class);
+                    intent.putExtra("datosturismo",moldeSitiosTuristicos);
+                    itemView.getContext().startActivity(intent);
+
+                }
+            });
         }
     }
 }
