@@ -71,6 +71,11 @@
     <string name="Platorecomendado"> PLATO RECOMENDADO
     </string>
 
+    <string name="Platorecomendadotexto"> El filet mignon, un corte de carne tierno y jugoso,
+        se extrae del lomo, es un lujo culinario con marmoleado y sabor excepcionales.
+        Delicioso y sofisticado.
+    </string>
+
     <string name="Resenaampliandohotel"> "Hotel Glamping en Guatapé:
         Encanto campestre, lujo natural, escapada perfecta.
         Naturaleza y comodidad en armonía"
@@ -81,6 +86,10 @@
 
     <string name="Resenaampliandorestaurante"> "Restaurante Oregano en Guatape:
         la deliciosa cocina colombiana, las vistas panoramicas al lago y la calida hospitalidad lo convierten en una visita obligada"
+    </string>
+
+    <string name="Resenaampliandoturismo"> Guatape, un pueblo colombiano de cuento de hadas,
+        deslumbra con sus vibrantes zocalos, historia colorida y ambiente acogedor. ¡Visitarlo es magico!
     </string>
 
 </resources>

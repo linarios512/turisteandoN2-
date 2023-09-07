@@ -69,6 +69,11 @@
     <string name="Platorecomendado"> RECOMMENDED DISH
     </string>
 
+    <string name="Platorecomendadotexto"> The filet mignon, a tender and juicy cut of meat,
+        Extracted from the loin, it is a culinary luxury with exceptional marbling and flavor.
+        Delicious and sophisticated.
+    </string>
+
     <string name="Resenaampliandohotel"> "Glamping Hotel in Guatapé:
         Country charm, natural luxury, the perfect getaway.
         Nature and comfort in harmony."
@@ -79,6 +84,10 @@
 
     <string name="Resenaampliandorestaurante">"Oregano Restaurant in Guatape:
         Delicious Colombian cuisine, panoramic lake views, and warm hospitality make it a must-visit"
+    </string>
+
+    <string name="Resenaampliandoturismo"> A Colombian fairytale town, Guatape dazzles with its vibrant zocalos,
+        colorful history, and welcoming atmosphere. Visiting it is magical!
     </string>
 
     </resources>

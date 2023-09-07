@@ -44,7 +44,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintVertical_bias="0.04"
-        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintHorizontal_bias="0.5"
         android:text="$250.000 COP - $450.000 COP"
         android:textSize="20dp"
         />
@@ -58,13 +58,13 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintVertical_bias="0.04"
-        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintHorizontal_bias="0.5"
         android:text="@string/Telefono"
         android:textSize="20dp"
         />
 
     <TextView
-        android:id="@+id/platorecomendadoampliando"
+        android:id="@+id/platorecomendadoampliandorestaurante"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@id/telefonoampliandorestaurante"
@@ -79,34 +79,6 @@
         />
 
     <TextView
-        android:id="@+id/platorecomendadotextoampliando"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/telefonoampliandorestaurante"
-        app:layout_constraintStart_toEndOf="@id/platorecomendadoampliando"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintVertical_bias="0.05"
-        app:layout_constraintHorizontal_bias="0.09"
-        android:text=""
-        android:textSize="20dp"
-        />
-
-    <TextView
-        android:id="@+id/nombreplatorecomendadotexto"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/telefonoampliandorestaurante"
-        app:layout_constraintStart_toEndOf="@id/platorecomendadoampliando"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintVertical_bias="0.05"
-        app:layout_constraintHorizontal_bias="0.09"
-        android:text=""
-        android:textSize="20dp"
-        />
-
-    <TextView
         android:id="@+id/resenaampliandorestaurante"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -114,14 +86,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintVertical_bias="0.4"
+        app:layout_constraintVertical_bias="0.5"
         app:layout_constraintHorizontal_bias="0.6"
-        android:text="@string/resenarestaurantes"
+        android:text="@string/Resenaampliandorestaurante"
         android:textSize="19dp"
         />
 
     <Button
-        android:id="@+id/botonampliandohote"
+        android:id="@+id/botonampliandorestaurante"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="110dp"

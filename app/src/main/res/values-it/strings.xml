@@ -73,6 +73,11 @@
     <string name="Platorecomendado"> PIATTO CONSIGLIATO
     </string>
 
+    <string name="Platorecomendadotexto"> Il filet mignon, un taglio di carne tenero e succoso,
+        Estratto dal lombo, è un lusso culinario dalla marezzatura e dal sapore eccezionali.
+        Delizioso e sofisticato.
+    </string>
+
     <string name="Resenaampliandohotel"> "Glamping Hotel a Guatapé:
         fascino rurale, lusso naturale, il rifugio perfetto.
         Natura e comfort in armonia.
@@ -85,4 +90,8 @@
         deliziosa cucina colombiana, vista panoramica sul lago e calorosa ospitalita lo rendono una visita imperdibile."
     </string>
 
+    <string name="Resenaampliandoturismo">
+        Una citta da favola colombiana, Guatape abbaglia con i suoi vivaci zocalos,
+        la sua storia colorata e l'atmosfera accogliente. Visitarlo e magico!
+    </string>
 </resources>

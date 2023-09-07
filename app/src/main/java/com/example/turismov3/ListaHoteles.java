@@ -29,11 +29,11 @@ public class ListaHoteles extends AppCompatActivity {
         recyclerView.setAdapter(adaptadorHoteles);
     }
     public void llenarListaConDatos(){
-        listaHoteles.add(new MoldeHotel("Hotel La Mansión","$150000", "3225605896",R.drawable.fotohotel1));
-        listaHoteles.add(new MoldeHotel("Hotel Guatapé express","$2000000", "3225605896",R.drawable.fotohotel2));
-        listaHoteles.add(new MoldeHotel("Hotel La Piedra","$250000", "3225605896",R.drawable.fotohotel3));
-        listaHoteles.add(new MoldeHotel("Hotel Glamping guatapé","$300000", "3225605896",R.drawable.fotohotel4));
-        listaHoteles.add(new MoldeHotel("Hotel La Fontana","$350000", "3225605896",R.drawable.fotohotel5));
+        listaHoteles.add(new MoldeHotel("Hotel La Mansión","$150000", "3225605896",R.drawable.fotohotel1,"hotel agradable",R.drawable.fotohotel1));
+        listaHoteles.add(new MoldeHotel("Hotel Guatapé express","$2000000", "3225605896",R.drawable.fotohotel2,"hotel agradable",R.drawable.fotohotel1));
+        listaHoteles.add(new MoldeHotel("Hotel La Piedra","$250000", "3225605896",R.drawable.fotohotel3,"hotel agradable",R.drawable.fotohotel1));
+        listaHoteles.add(new MoldeHotel("Hotel Glamping guatapé","$300000", "3225605896",R.drawable.fotohotel4,"hotel agradable",R.drawable.fotohotel1));
+        listaHoteles.add(new MoldeHotel("Hotel La Fontana","$350000", "3225605896",R.drawable.fotohotel5,"hotel agradable",R.drawable.fotohotel1));
     }
 
 }
