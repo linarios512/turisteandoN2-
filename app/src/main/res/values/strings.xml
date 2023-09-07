@@ -62,7 +62,7 @@
     <string name="sitiosturisticos">sitios turisticos
     </string>
 
-    <string name="Contacto"> Contacto
+    <string name="CONTACTO"> CONTACTO
     </string>
 
     <string name="Telefono"> Telefono: 3222555127
@@ -90,6 +90,12 @@
 
     <string name="Resenaampliandoturismo"> Guatape, un pueblo colombiano de cuento de hadas,
         deslumbra con sus vibrantes zocalos, historia colorida y ambiente acogedor. ¡Visitarlo es magico!
+    </string>
+
+    <string name="COMENTARIO">COMENTARIO
+    </string>
+
+    <string name="Calificacion">CALIFICACIÓN
     </string>
 
 </resources>

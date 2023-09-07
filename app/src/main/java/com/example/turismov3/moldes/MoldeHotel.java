@@ -80,8 +80,8 @@ public class MoldeHotel implements Serializable {
 
 
 
-//xml apmliando ..... a crear el text view
-//crear valoracion y comentartio como text view
+//xml ampliando ..... a crear el text view
+//crear valoracion y comentario como text view
 //.molde hotel y creamos los dos privados , borrar constructor
 //crear get a set
 //lista dinamica, poner mas datos.

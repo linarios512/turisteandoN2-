@@ -64,7 +64,7 @@
     <string name="sitiosturisticos">siti turistici
     </string>
 
-    <string name="Contacto"> Contattaci
+    <string name="CONTACTO"> Contattaci
     </string>
 
     <string name="Telefono"> Telefono: 3222555127
@@ -93,5 +93,11 @@
     <string name="Resenaampliandoturismo">
         Una citta da favola colombiana, Guatape abbaglia con i suoi vivaci zocalos,
         la sua storia colorata e l'atmosfera accogliente. Visitarlo e magico!
+    </string>
+
+    <string name="COMENTARIO">Commento
+    </string>
+
+    <string name="Calificacion">qualificazione
     </string>
 </resources>

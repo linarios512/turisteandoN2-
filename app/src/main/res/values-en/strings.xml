@@ -60,7 +60,7 @@
     <string name="sitiosturisticos">tourist sites
     </string>
 
-    <string name="Contacto"> Contact us
+    <string name="CONTACTO"> Contact us
     </string>
 
     <string name="Telefono"> Phone: 3222555127
@@ -88,6 +88,12 @@
 
     <string name="Resenaampliandoturismo"> A Colombian fairytale town, Guatape dazzles with its vibrant zocalos,
         colorful history, and welcoming atmosphere. Visiting it is magical!
+    </string>
+
+    <string name="COMENTARIO">Comment
+    </string>
+
+    <string name="Calificacion">qualification
     </string>
 
     </resources>
