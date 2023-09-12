@@ -9,7 +9,7 @@ public class MoldeHotel implements Serializable {
     private String telefono;
     private Integer foto;
     private String descripcion;
-    private Integer fotoadicional;
+    private Integer foto1;
 
     public MoldeHotel() {  //constructor vacio
     }
@@ -80,8 +80,8 @@ public class MoldeHotel implements Serializable {
 
 
 
-//xml ampliando ..... a crear el text view
-//crear valoracion y comentario como text view
+//xml ampliando ..... a crear el text view okkkkkkkkkkk
+//crear valoracion y comentario como text view  okkkkkkkkkkkkk
 //.molde hotel y creamos los dos privados , borrar constructor
 //crear get a set
 //lista dinamica, poner mas datos.

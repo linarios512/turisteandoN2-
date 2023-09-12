@@ -6,90 +6,183 @@
     android:layout_height="match_parent"
     tools:context=".AmpliandoRestaurantes">
 
-
     <TextView
-        android:id="@+id/nombreampliandorestaurantes"
+        android:id="@+id/nombreampliandorestaurante"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintVertical_bias="0.05"
-        android:textSize="27dp"
-        android:textStyle="bold"
         android:text="RESTAURANTE OREGANO"
+        app:layout_constraintVertical_bias="0.04"
+        app:flow_firstHorizontalBias="0.1"
+        android:textSize="27dp"
+        android:textColor="@color/color6"
+        android:textStyle="bold"
         />
 
     <ImageView
-        android:id="@+id/fotoampliandorestaurantes"
-        android:layout_width="match_parent"
-        android:layout_height="250dp"
-        android:src="@drawable/restauranteoregano"
-        app:layout_constraintTop_toBottomOf="@+id/nombreampliandorestaurantes"
+        android:id="@+id/fotoampliandorestaurante"
+        android:layout_width="200dp"
+        android:layout_height="140dp"
+        android:src="@drawable/fotorestaurante4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.01"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nombreampliandorestaurante"
+        app:layout_constraintVertical_bias="0.03"
+        android:scaleType="fitXY"
+        android:layout_marginHorizontal="10dp"
+        />
+
+    <ImageView
+        android:id="@+id/fotoampliandorestaurante2"
+        android:layout_width="200dp"
+        android:layout_height="140dp"
+        android:layout_marginHorizontal="10dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/fotorestaurante444"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fotoampliandorestaurante"
+        app:layout_constraintVertical_bias="0.039" />
+
+    <TextView
+        android:id="@+id/precioampliandorestaurante"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/fotoampliandorestaurante2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:scaleType="fitXY"
-        app:layout_constraintVertical_bias="0.1"
+        app:layout_constraintVertical_bias="0.08"
+        app:layout_constraintHorizontal_bias="0.7"
+        android:text="$60.000 COP -$200.000 COP"
+        android:textColor="@color/color1"
+        android:textSize="20dp"
         />
 
     <TextView
-        android:id="@+id/precioampliandorestaurantes"
+        android:id="@+id/contactoampliandorestaurante"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/fotoampliandorestaurantes"
+        app:layout_constraintTop_toBottomOf="@+id/nombreampliandorestaurante"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintVertical_bias="0.04"
-        app:layout_constraintHorizontal_bias="0.5"
-        android:text="$250.000 COP - $450.000 COP"
+        app:layout_constraintHorizontal_bias="0.85"
+        android:text="@string/CONTACTO"
         android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/color6"
         />
 
     <TextView
         android:id="@+id/telefonoampliandorestaurante"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/precioampliandorestaurantes"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintVertical_bias="0.04"
-        app:layout_constraintHorizontal_bias="0.5"
-        android:text="@string/Telefono"
+        android:text="(604)5698745"
+        android:textColor="@color/color1"
         android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.858"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/contactoampliandorestaurante"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/comentariosampliandorestaurante"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/COMENTARIO"
+        android:textColor="@color/color6"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/contactoampliandorestaurante"
+        app:layout_constraintVertical_bias="0.1"
         />
 
     <TextView
-        android:id="@+id/platorecomendadoampliandorestaurante"
+        android:id="@+id/textocomentariosampliandorestaurante"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/telefonoampliandorestaurante"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintVertical_bias="0.05"
-        app:layout_constraintHorizontal_bias="0.1"
-        android:text="@string/Platorecomendado"
+        android:text="Delicioso y placentero"
+        android:textColor="@color/color1"
         android:textSize="20dp"
-        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.99"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/contactoampliandorestaurante"
+        app:layout_constraintVertical_bias="0.15"
         />
 
     <TextView
-        android:id="@+id/resenaampliandorestaurante"
+        android:id="@+id/calificacionampliandorestaurante"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/precioampliandorestaurantes"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:text="@string/Calificacion"
+        android:textColor="@color/color6"
+        android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintVertical_bias="0.5"
-        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/contactoampliandorestaurante"
+        app:layout_constraintVertical_bias="0.25"
+        />
+
+    <ImageView
+        android:id="@+id/estrellasfotoampliandorestaurante"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/estrellas"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight="60dp"
+        app:layout_constraintHorizontal_bias="0.864"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/calificacionampliandorestaurante"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintWidth="100dp" />
+
+    <TextView
+        android:id="@+id/textocalificacionsampliandoresttaurantes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4.8"
+        android:textColor="@color/color6"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/contactoampliandorestaurante"
+        app:layout_constraintVertical_bias="0.3"
+        />
+
+    <TextView
+        android:id="@+id/resenaampliandorestaurantes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="@string/Resenaampliandorestaurante"
-        android:textSize="19dp"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/precioampliandorestaurante"
+        app:layout_constraintVertical_bias="0.199"
+        android:textAlignment="center"
         />
 
     <Button
@@ -104,16 +197,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/resenaampliandorestaurante"
-        app:layout_constraintVertical_bias="0.21" />
-
-
-
-
-
-
-
-
-
+        app:layout_constraintTop_toBottomOf="@+id/resenaampliandorestaurantes"
+        app:layout_constraintVertical_bias="0.5" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
