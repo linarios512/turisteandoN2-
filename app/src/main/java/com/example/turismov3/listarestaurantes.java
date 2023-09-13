@@ -34,11 +34,11 @@ public class listarestaurantes extends AppCompatActivity {
     }
 
     public void llenarListaConDatos(){
-        listarestaurantes.add(new MoldeRestaurantes("Restaurante Oregano",R.drawable.fotorestaurante1,"3102563245","60000","Filet Mignon"));
-        listarestaurantes.add(new MoldeRestaurantes("Restaurante Flor de Lis",R.drawable.fotorestaurante2,"3102563245","65000","Pargo Rojo"));
-        listarestaurantes.add(new MoldeRestaurantes("Restaurante Parisino",R.drawable.fotorestaurante3,"3102563245","40000","Camarones a la Parmesana"));
-        listarestaurantes.add(new MoldeRestaurantes("Restaurante Rincon del Steak",R.drawable.fotorestaurante4,"3102563245","45000","Cazuela de frijoles"));
-        listarestaurantes.add(new MoldeRestaurantes("Restaurante Tikka",R.drawable.fotorestaurante5,"3102563245","50000","Trucha al ajillo"));
+        listarestaurantes.add(new MoldeRestaurantes("Restaurante Oregano",R.drawable.fotorestaurante1,"3112563245","$60.000 - 100.000","Filet Mignon", "Restaurante Oregano en Guatape: la deliciosa cocina colombiana, las vistas panoramicas al lago y la calida hospitalidad lo convierten en una visita obligada", 5f,"excelente comida",R.drawable.fotorestaurante111));
+        listarestaurantes.add(new MoldeRestaurantes("Restaurante Flor de Lis",R.drawable.fotorestaurante2,"3202563245","$50.000 - 100.000","Pargo Rojo", "Este restaurante ofrece platos exquisitos, servicio impecable y un ambiente encantador. Una experiencia gastronómica inolvidable.", 5f,"atencion unica",R.drawable.fotorestaurante222));
+        listarestaurantes.add(new MoldeRestaurantes("Restaurante Parisino",R.drawable.fotorestaurante3,"3182563245","$70.000 - 90.000","Camarones a la Parmesana", "Un rincón culinario excepcional con sabores únicos, ambiente acogedor y un servicio que supera expectativas. Deliciosamente memorable.", 5f,"podria ser mejor",R.drawable.fotorestaurante333));
+        listarestaurantes.add(new MoldeRestaurantes("Restaurante Rincon del Steak",R.drawable.fotorestaurante4,"3222563245","$60.000 - 90.000","Cazuela de frijoles", "Este restaurante deleita con su cocina creativa, ingredientes frescos y un ambiente acogedor que invita a quedarse.", 5f,"sabor inigualable",R.drawable.fotorestaurante444));
+        listarestaurantes.add(new MoldeRestaurantes("Restaurante Tikka",R.drawable.fotorestaurante5,"3212563245","$100.000 - 120.000","Trucha al ajillo", "\"Una experiencia culinaria excepcional, donde la pasión por la comida se combina con una atención impecable.", 5f,"autenticidad",R.drawable.fotorestaurante555));
 
     }
 

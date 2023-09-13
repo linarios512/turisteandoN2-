@@ -29,11 +29,11 @@ public class ListaHoteles extends AppCompatActivity {
         recyclerView.setAdapter(adaptadorHoteles);
     }
     public void llenarListaConDatos(){
-        listaHoteles.add(new MoldeHotel("Hotel La Mansión","$150000", "3225605896",R.drawable.fotohotel1,"hotel agradable",R.drawable.fotohotel1));
-        listaHoteles.add(new MoldeHotel("Hotel Guatapé express","$2000000", "3225605896",R.drawable.fotohotel2,"hotel agradable",R.drawable.fotohotel1));
-        listaHoteles.add(new MoldeHotel("Hotel La Piedra","$250000", "3225605896",R.drawable.fotohotel3,"hotel agradable",R.drawable.fotohotel1));
-        listaHoteles.add(new MoldeHotel("Hotel Glamping guatapé","$300000", "3225605896",R.drawable.fotohotel4,"hotel agradable",R.drawable.fotohotel1));
-        listaHoteles.add(new MoldeHotel("Hotel La Fontana","$350000", "3225605896",R.drawable.fotohotel5,"hotel agradable",R.drawable.fotohotel1));
+        listaHoteles.add(new MoldeHotel("Hotel Glamping Guatapé","$200.000 - 250.000", "3225605856",R.drawable.fotohotel1,"Hotel Glamping en Guatapé:  Encanto campestre, lujo natural, escapada perfecta.  Naturaleza y comodidad en armonía" , 5f, "Agradable y central", R.drawable.fotohotel111));
+        listaHoteles.add(new MoldeHotel("Hotel Guatapé express","$150.000 - 200.000", "3105605835",R.drawable.fotohotel2,"Este hotel ofrece comodidad inigualable, vistas espectaculares y un servicio excepcional. Un refugio perfecto para relajarse.", 5f, "Excelente atención", R.drawable.fotohotel222));
+        listaHoteles.add(new MoldeHotel("Hotel La Piedra","$200.000 - 300.000", "3205605878",R.drawable.fotohotel3,"El hotel brilla con lujo, gastronomía exquisita y atención impecable. Un destino inolvidable para viajeros exigentes.", 5f, "Buen servicio", R.drawable.fotohotel333));
+        listaHoteles.add(new MoldeHotel("Hotel La Mansión","$300.000 - 400.000", "3155605832",R.drawable.fotohotel4,"Un acogedor hotel que combina encanto histórico con comodidades modernas, garantizando una estancia memorable y relajante.", 5f, "Hotel tranquilo", R.drawable.fotohotel444));
+        listaHoteles.add(new MoldeHotel("Hotel La Fontana","$170.000 - 230.000", "3165605819",R.drawable.fotohotel5,"Este hotel es un oasis de lujo y tranquilidad, donde el confort y la elegancia se fusionan perfectamente.", 5f, "Hotel silencioso", R.drawable.fotohotel555));
     }
 
 }
