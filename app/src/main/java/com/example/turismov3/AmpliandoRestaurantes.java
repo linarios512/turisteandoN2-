@@ -23,11 +23,11 @@ public class AmpliandoRestaurantes extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ampliando_restaurantes);
 
-        fotoampliandorestaurantes=findViewById(R.id.fotoampliandorestaurantes);
-        nombreampliandorestaurantes=findViewById(R.id.nombreampliandorestaurantes);
-        precioampliandorestaurantes=findViewById(R.id.precioampliandorestaurantes);
+        fotoampliandorestaurantes=findViewById(R.id.fotoampliandorestaurante);
+        nombreampliandorestaurantes=findViewById(R.id.nombreampliandorestaurante);
+        precioampliandorestaurantes=findViewById(R.id.precioampliandorestaurante);
         telefonoampliandorestaurante=findViewById(R.id.telefonoampliandorestaurante);
-        resenaampliandorestaurante=findViewById(R.id.resenaampliandorestaurante);
+        resenaampliandorestaurante=findViewById(R.id.resenaampliandorestaurantes);
         moldeRestaurantes=(MoldeRestaurantes) getIntent().getSerializableExtra("datosrestaurantes");
 
         //cargando la informacion en los componentes graficos

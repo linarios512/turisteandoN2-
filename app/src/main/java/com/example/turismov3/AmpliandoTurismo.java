@@ -22,10 +22,10 @@ public class AmpliandoTurismo extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ampliando_turismo);
 
-        fotoampliandositiosTuristicos=findViewById(R.id.fotoampliandositiosTuristicos);
-        nombreampliandositiosTuristicos=findViewById(R.id.nombreampliandositiosTuristicos);
-        precioampliandositiosTuristicos=findViewById(R.id.precioampliandositiosTuristicos);
-        telefonoampliandositiosTuristicos=findViewById(R.id.telefonoampliandositiosTuristicos);
+        fotoampliandositiosTuristicos=findViewById(R.id.fotoampliandositio);
+        nombreampliandositiosTuristicos=findViewById(R.id.nombreampliandositios);
+        precioampliandositiosTuristicos=findViewById(R.id.precioampliandositios);
+        telefonoampliandositiosTuristicos=findViewById(R.id.telefonoampliandositios);
         moldeSitiosTuristicos=(MoldeSitiosTuristicos) getIntent().getSerializableExtra("datossitiosTuristicos");
 
         //cargando la informacion en los componentes graficos

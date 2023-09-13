@@ -24,7 +24,7 @@
         />
 
     <ImageView
-        android:id="@+id/fotoampliandohotel"
+        android:id="@+id/fotoampliandositio"
         android:layout_width="200dp"
         android:layout_height="140dp"
         android:src="@drawable/fotositiost1"
@@ -49,7 +49,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/fotoampliandohotel"
+        app:layout_constraintTop_toBottomOf="@+id/fotoampliandositio"
         app:layout_constraintVertical_bias="0.039" />
 
     <TextView

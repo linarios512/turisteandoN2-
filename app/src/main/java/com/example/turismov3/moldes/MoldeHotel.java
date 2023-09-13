@@ -9,7 +9,7 @@ public class MoldeHotel implements Serializable {
     private String telefono;
     private Integer foto;
     private String descripcion;
-    private Integer foto1;
+    private Integer fotoadicional;
 
     public MoldeHotel() {  //constructor vacio
     }
@@ -39,7 +39,7 @@ public class MoldeHotel implements Serializable {
         this.fotoadicional = fotoadicional;
     }
 
-} // constructor lleno
+     // constructor lleno
 
     public String getNombre() {
         return nombre;
