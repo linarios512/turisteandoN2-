@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "524469909744",
+    "project_id": "turisteandolmrg",
+    "storage_bucket": "turisteandolmrg.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:524469909744:android:bc513ff4aa1c56b9c86a35",
+        "android_client_info": {
+          "package_name": "com.example.turismov3"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVmfJXZIwYZvls7GPKXF2vQAehJoGilbI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
