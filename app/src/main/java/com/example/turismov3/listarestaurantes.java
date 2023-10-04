@@ -35,7 +35,7 @@ public class listarestaurantes extends AppCompatActivity {
         recyclerView=findViewById(R.id.listadinamicarestaurantes);
         recyclerView.setLayoutManager(new LinearLayoutManager(this, RecyclerView.VERTICAL,false));
 
-        db.collection("users")
+        db.collection("restaurantes")
                 .get()
                 .addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
                     @Override
@@ -46,12 +46,12 @@ public class listarestaurantes extends AppCompatActivity {
                                String nombreRestaurante=document.getString("nombre");
                                 String precioRestaurante=document.getString("nombre");
                                 String telefonoRestaurante=document.getString("nombre");
-                                String descripcionRestaurante=document.getString("nombre");
+                                String platoRestaurante=document.getString("nombre");
 
                                 Toast.makeText(listarestaurantes.this, nombreRestaurante, Toast.LENGTH_SHORT).show();
                                 Toast.makeText(listarestaurantes.this, precioRestaurante, Toast.LENGTH_SHORT).show();
                                 Toast.makeText(listarestaurantes.this, telefonoRestaurante, Toast.LENGTH_SHORT).show();
-                                Toast.makeText(listarestaurantes.this, descripcionRestaurante, Toast.LENGTH_SHORT).show();
+                                Toast.makeText(listarestaurantes.this, platoRestaurante, Toast.LENGTH_SHORT).show();
 
                             }
                         } else {

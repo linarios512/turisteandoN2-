@@ -33,7 +33,7 @@ public class ListaHoteles extends AppCompatActivity {
         recyclerView=findViewById(R.id.listadinamicahoteles);
         recyclerView.setLayoutManager(new LinearLayoutManager(this,RecyclerView.VERTICAL,false));
 
-        db.collection("users")
+        db.collection("hoteles")
                 .get()
                 .addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
                     @Override
